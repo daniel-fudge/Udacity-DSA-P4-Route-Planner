@@ -24,13 +24,12 @@ Udacity except for [helpers.py](helpers.py). This file had to be updated to allo
 To start we assume that the base Python v3.6.3 interpreter is installed and is in the Path. If not, please install the v3.6.3 interpreter from [here](https://www.python.org/).     
 The reason for the very old verion of Python is the map pickle files were create with a very old version of Python and NetworkX.
 
-
 ### Create Virtual Environment
 If you are not familiar with Python Virtual Environments, please see the tutorial [here](https://docs.python.org/3/tutorial/venv.html). 
 The Powershell commands are executed from within the repo's root folder, and assumes Python is installed in 
-`C:\Python3.9.13`.  Linux and other shell commands are very similar.
+`C:\Python3.6.3`.  Linux and other shell commands are very similar.
 ```shell
-C:\Python3.9.13\python.exe -m venv venv
+C:\Python3.6.3\python.exe -m venv venv
 .\venv\Scripts\activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
